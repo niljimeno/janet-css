@@ -4,7 +4,10 @@
  (css/into-css
   [:body
    [:color "black"]
-   [:h1
-    [:color "red"]]]
+   [:.text
+    [:color "red"]]
+   ["h1#title"
+    [:color "magenta"]
+    [:font-size "14px"]]]
   [:root
    [:color "purple"]]))

@@ -18,7 +18,7 @@ inspired by [scheicss](https://codeberg.org/naori/scheicss).
 #        color: black;
 #    }
 #
-#    body, h1 {
+#    body h1 {
 #        color: red;
 #    }
 #
