@@ -1,9 +1,10 @@
-(import ../janet-css/core)
+(import ../janet-css/css)
 
 (print
- (css/into-css [:body
-                [:color "black"]
-                [:h1
-                 [:color "red"]]]
-               [:root
-                [:color "purple"]]))
+ (css/into-css
+  [:body
+   [:color "black"]
+   [:h1
+    [:color "red"]]]
+  [:root
+   [:color "purple"]]))
