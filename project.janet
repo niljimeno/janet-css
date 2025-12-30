@@ -3,6 +3,9 @@
   :description ```Transform janet code into css ```
   :version "0.0.0")
 
-(declare-executable
-  :name "janet-css"
-  :entry "janet-css/init.janet")
+# (declare-executable
+#   :name "janet-css"
+#   :entry "janet-css/init.janet")
+
+(declare-source
+ :source ["janet-css"])
